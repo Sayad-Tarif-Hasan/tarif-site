@@ -1,0 +1,178 @@
+ *{
+   margin: 0;
+   padding: 0;
+ }
+ 
+    /*navigation area style start*/
+nav{
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 2px solid crimson;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+}
+    
+.Logo {
+  width: 150px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+ul{
+  list-style: none;
+  float: right;
+  display: flex;
+  flex-direction: left;
+  margin-right: 30px;
+
+}
+li{
+  color: crimson;
+  margin-left: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+li:hover{
+  background-color: crimson;
+  color: white;
+  width: 80px;
+  text-align: center;
+  transition: .9s;
+}
+
+    
+    /*navigation area style end*/
+    
+    /*.........................*/
+    
+    /*home area style start*/
+ .overlay{
+   width: 100%;
+   background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.4)),url(./Homecv.jpg);
+   height: 450px;
+   background-repeat: no-repeat;
+   }
+  .home-head{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(500%);
+    text-shadow: 5px 5px 20px white;
+  }
+  p{
+    transform: translateY(420%);
+    color: white;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+   .sub-head{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: transparent;
+     -webkit-text-stroke: crimson;
+     -webkit-text-stroke-width: 2px;
+     text-shadow: 5px 5px 20px crimson;
+     
+   }
+  .home-sub{
+    height: 100vh;
+    width: 100%;
+    top: 30px;
+    position: relative;
+  }
+  .dummy-text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+    /*home area style end*/
+    
+    /*...................*/
+    
+    /*about area style start*/
+   .about{
+     width: 100%;
+     height: 100vh;
+     margin-top: 100px;
+     
+   }
+  .about-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    background-color: crimson
+  }
+ .about-subtext{
+   color: black;
+   margin-top: 20px;
+   margin-left: 15px;
+   margin-right: 15px;
+ }
+    
+    
+    /*about area style end*/
+    
+    /*......................*/
+    
+     /*login-section style start*/
+.please-login{
+  text-align: center;
+  font-size: 40px;
+  color: crimson;
+  -webkit-text-stroke-color:white;
+  -webkit-text-stroke-width: 1px;
+  background-color: crimson;
+  
+}
+table{
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  top: 60px;
+
+}
+.login-section{
+  transform: translateY(50%);
+  height: 40%;
+  width: 100%;
+  position: absolute;
+  
+}
+.login-btn{
+transform: translateX(120%);
+margin-top:20px;
+width: 190px;
+height: 35px;
+background-color: crimson;
+border: none;
+color: #fff;
+}
+input{
+  border:none;
+  border-bottom: 2px solid red;
+  outline: none;
+  font-family: sans-serif;
+}
+.reg-note {
+  color: black;
+  text-align: center;
+}
+.copyright{
+  color: #6e7f80;
+  text-align: center;
+  margin-top: 20px;
+}
+
+    /*login-section style end*/
+  
